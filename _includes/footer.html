@@ -1,0 +1,16 @@
+<!-- Scripts -->
+
+<link rel="stylesheet" href="{{ "/js/main.js" | prepend: site.baseurl }}">
+
+<!-- /Scripts -->
+<footer class="page-footer">
+  <h1><a class="footer-title" href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+  <a href="{{ site.url }}">{{ site.author }}</a>
+  {% if site.github_username %}
+  <a href="https://github.com/{{ site.github_username }}"><i class="fa fa-github"></i></a>
+  {% endif %}
+  {% if site.twitter_username %}
+  <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter"></i></a>
+  {% endif %}
+  <a href="{{ "/feed.xml" | prepend: site.baseurl }}"><i class="fa fa-rss"></i></a>
+</footer>

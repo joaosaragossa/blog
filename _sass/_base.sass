@@ -1,0 +1,30 @@
+// Variáveis
+
+$color-link: #36f
+$text-shadow: 0.03em 0.03em 1px rgba(0,0,0,0.5)
+
+$width: 100%
+
+$tela-pequena: 420px
+$tela-media: 960px
+
+// Mixins
+
+@mixin box-sizing
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+
+@mixin font($font-family)
+  font-family: "#{$font-family}", sans-serif
+
+@mixin links
+  color: $color-link
+  text-decoration: none
+
+@mixin transition($property,$time)
+  -webkit-transition: $property $time ease
+  -moz-transition: $property $time ease
+  -ms-transition: $property $time ease
+  -o-transition: $property $time ease
+  transition: $property $time ease

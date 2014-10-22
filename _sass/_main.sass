@@ -1,0 +1,266 @@
+// Variáveis
+
+$color-link: #36f
+$text-shadow: 0.03em 0.03em 1px rgba(0,0,0,0.5)
+
+$width: 100%
+
+$tela-pequena: 420px
+$tela-media: 960px
+
+// Mixins
+
+@mixin box-sizing
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+
+@mixin font($font-family)
+  font-family: "#{$font-family}", sans-serif
+
+@mixin links
+  color: $color-link
+  text-decoration: none
+
+@mixin transition($property,$time)
+  -webkit-transition: $property $time ease
+  -moz-transition: $property $time ease
+  -ms-transition: $property $time ease
+  -o-transition: $property $time ease
+  transition: $property $time ease
+
+
+// ESTRUTURA
+
+body
+  +box-sizing
+  +font("Open Sans")
+  background: #fff
+  color: $text-color
+  font-size: $base-font-size
+  line-height: $base-line-height
+
+body,
+header,
+main,
+footer,
+article,
+div,
+ul,
+li,
+h1,
+h2,
+h3,
+h4
+  +box-sizing
+  margin: 0
+  padding: 0
+
+// ESTILO
+
+a
+  +links
+
+img
+  max-width: 100%
+
+// HEADER
+
+.page-header
+  background-color: #333
+  background-size: cover
+  color: #fff
+  display: table
+  margin: 0 0 $spacing-unit*2 0
+  padding: $spacing-unit
+  text-align: center
+  width: 100%
+
+  .header-content
+    display: table-cell
+    vertical-align: middle
+
+  .header-title
+    font-size: 4em
+    text-shadow: $text-shadow
+
+  @media screen and (max-width: $tela-pequena)
+    font-size: 0.5em
+
+  .header-description
+    font-size: 1.1em
+    margin: 0 auto
+    max-width: 60%
+    padding-top: 0.5em
+    text-shadow: $text-shadow
+
+    @media screen and (max-width: $tela-pequena)
+      font-size: 2em
+
+// NAV
+
+.page-nav
+  +box-sizing
+  padding: $spacing-unit/2
+
+  ul
+    +box-sizing
+    margin: 0 auto
+    text-align: center
+    width: 100%
+
+    li
+      display: inline-block
+
+      a
+      font-size: 0.9em
+      padding: $spacing-unit/2 $spacing-unit
+
+// MAIN
+
+.page-main
+  margin: 0 auto
+  // max-width: 90%
+  // padding: $spacing-unit*2 $spacing-unit
+
+  @media screen and (max-width: $tela-media)
+    max-width: 100%
+
+  @media screen and (max-width: $tela-pequena)
+    max-width: 100%
+    padding: 0
+
+  &:after
+    clear: both
+    content: ""
+    display: block
+    width: 100%
+
+// post-list
+
+#post-list
+  padding: 0 $spacing-unit
+  margin: 0 auto
+
+  &:after
+    clear: both
+    content: ""
+    display: block
+    width: 100%
+
+  @media screen and (max-width: $tela-media)
+    padding: 0
+
+  @media screen and (max-width: $tela-pequena)
+    padding: 0
+
+.post-list-item
+  background-size: cover
+  display: table
+  float: left
+  position: relative
+  width: $width/3
+
+  a
+    color: #fff
+    text-shadow: $text-shadow
+
+  .list-h1
+    display: table-cell
+    text-align: center
+    vertical-align: middle
+
+  .list-meta
+    +box-sizing
+    background: rgba(#000, 0.5)
+    bottom: 0
+    color: #fff
+    display: block
+    margin: 0
+    padding: $spacing-unit/2
+    position: absolute
+    right: 0
+    width: 100%
+
+  @media screen and (max-width: $tela-media)
+    width: 50%!important
+
+  @media screen and (max-width: $tela-pequena)
+    width: 100%!important
+    float: none
+
+// post
+
+#post-header
+  background-size: cover
+  background-position: center
+  display: table
+  width: 100%
+
+.post-h1
+  color: #fff
+  display: table-cell
+  font-size: 4em
+  text-align: center
+  text-shadow: $text-shadow
+  vertical-align: middle
+
+.post-content,
+.post-footer
+  margin: 0 auto
+  max-width: 45em
+
+.post-content
+  padding: $spacing-unit $spacing-unit 0 $spacing-unit
+
+.post-footer
+  padding: 0 $spacing-unit $spacing-unit $spacing-unit
+
+  a
+    margin-right: $spacing-unit
+
+    .fa-tag
+      font-size: 0.9em
+      margin-right: $spacing-unit/5
+
+
+  @media screen and (max-width: $tela-pequena)
+    padding: $spacing-unit/2
+
+// FOOTER
+
+.page-footer
+  background-color: #111
+  margin-top: $spacing-unit*2
+  padding: $spacing-unit
+  text-align: center
+
+  .footer-title
+    color: #fff
+    font-size: 1.5em
+    +transition(color,0.5s)
+
+    &:hover
+      color: #36f
+      +transition(color,0.5s)
+
+    @media screen and (max-width: $tela-pequena)
+      font-size: 0.8em
+
+  a .fa
+    color: #fff
+    font-size: 1.5em
+    margin: 0 0 0 0.5em
+    +transition(color,0.5s)
+
+  .fa-github:hover
+    color: #444
+    +transition(color,0.5s)
+
+  .fa-twitter:hover
+    color: #4099ff
+    +transition(color,0.5s)
+
+  .fa-rss:hover
+    color: #ff6600
+    +transition(color,0.5s)
