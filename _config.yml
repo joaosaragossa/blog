@@ -6,6 +6,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Mesmo.
 baseurl: "/qualquer-coisa"
 url: "http://joaosaragossa.github.io"
+facebook_username: joaopaulo.saragossa
 twitter_username: joaosaragossa
 github_username:  joaosaragossa
 permalink: /:title
