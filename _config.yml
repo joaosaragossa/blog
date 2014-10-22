@@ -10,7 +10,6 @@ facebook_username: joaopaulo.saragossa
 twitter_username: joaosaragossa
 github_username:  joaosaragossa
 permalink: /:title
-comments: true
 
 # Build settings
 markdown: kramdown
