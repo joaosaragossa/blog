@@ -11,10 +11,9 @@ showheader: false
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     {{ content }}
   </div>
-  <footer class="post-footer">
+  <!-- <footer class="post-footer">
     <p>{% for category in site.categories %}
       <a href="/{{ category | first | slugize }}/"><i class="fa fa-tag"></i>{{ category | first }}</a>
-      
     {% endfor %}</p>
-  </footer>
+  </footer> -->
 </article>
