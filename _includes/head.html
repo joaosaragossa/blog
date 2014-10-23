@@ -4,11 +4,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{{ site.description }}">
+  <meta name="keywords" content="{{ page.categories | join: ', ' }}">
+  <meta name="author" content="João Saragossa">
+  <!-- twitter-cards -->
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:site" content="@joaosaragossa"/>
+  <meta name="twitter:title" content="João Saragossa | Web Designer e Produtor Cultural"/>
+  <meta name="twitter:description" content="João Saragossa, produtor cultural e web designer em Ubatuba, São Paulo."/>
+  <meta name="twitter:creator" content="@joaosaragossa"/>
+  <meta name="twitter:image:src" content="http://joaosaragossa.github.io/joao.jpg"/>
+  <meta name="twitter:domain" content="http://joaosaragossa.github.io/qualquer-coisa/"/>
+  <!-- /twitter-cards -->
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
   <script type="text/javascript" src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
+  <!-- DISQUS -->
   <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
     var disqus_shortname = 'qualquer-coisa'; // required: replace example with your forum shortname
@@ -21,4 +33,5 @@
         (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
     }());
   </script>
+  <!-- /DISQUS -->
 </head>

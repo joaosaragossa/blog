@@ -2,8 +2,7 @@
 title: Qualquer Coisa
 author: João Saragossa
 email: joaosaragossa.dev@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Mesmo.
+description: Um blog sobre qualquer coisa. Mesmo
 baseurl: "/qualquer-coisa"
 url: "http://joaosaragossa.github.io"
 facebook_username: joaopaulo.saragossa
@@ -13,3 +12,4 @@ permalink: /:title
 
 # Build settings
 markdown: kramdown
+header_description: Mesmo
