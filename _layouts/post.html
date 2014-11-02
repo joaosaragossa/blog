@@ -9,7 +9,7 @@ showheader: false
   {% include header-resize.html %}
   <!-- {% include nav.html %} -->
   <div class="post-content">
-    <time class="post-date" datetime="{{ page.date| date: '%Y-%m-%d' }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+    <time class="post-date" datetime="{{ page.date| date: '%Y-%m-%d' }}">{{ page.date | date: "%-d de %b, %Y" }}</time>
     {{ content }}
   </div>
   <hr/>
