@@ -6,6 +6,7 @@
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="keywords" content="{{ page.categories | join: ', ' }}">
   <meta name="author" content="João Saragossa">
+  <link rel="image_src" href="{% if page.headerimage %}{{ site.url }}{{ site.baseurl }}/img/posts-header/{{ page.headerimage }}{% else %}{{ site.author_img }}{% endif %}" />
   <!-- twitter-cards -->
   <meta name="twitter:card" content="summary_large_image"/>
   <meta name="twitter:site" content="@joaosaragossa"/>
@@ -21,7 +22,6 @@
   <meta property="article:author" content="https://www.facebook.com/{{ site.facebook_username }}" />
   <meta property="og:description" content="{{ page.description }}" />
   <!-- /facebook meta -->
-  <link rel="image_src" href="{% if page.headerimage %}{{ site.url }}{{ site.baseurl }}/img/posts-header/{{ page.headerimage }}{% else %}{{ site.author_img }}{% endif %}" />
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
