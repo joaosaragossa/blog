@@ -92,7 +92,11 @@ hr
     font-size: 4em
     text-shadow: $text-shadow
 
+  @media screen and (max-width: $tela-media)
+    background-position: center
+
   @media screen and (max-width: $tela-pequena)
+    background-position: center
     font-size: 0.5em
     margin-bottom: 0
 
@@ -207,6 +211,12 @@ hr
   width: 100%
 
   transition: background-position 1s ease-out
+
+  @media screen and (max-width: $tela-media)
+    background-position: center
+
+  @media screen and (max-width: $tela-pequena)
+    background-position: center
 
 .post-h1
   color: #fff
