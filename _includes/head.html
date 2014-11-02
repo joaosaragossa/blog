@@ -18,6 +18,7 @@
   <!-- facebook meta -->
   <meta property="og:image" content="{% if page.headerimage %}{{ site.url }}{{ site.baseurl }}/img/posts-header/{{ page.headerimage }}{% else %}{{ site.author_img }}{% endif %}" />
   <meta property="og:title" content="{{ page.title }}" />
+  <meta property="article:author" content="https://www.facebook.com/{{ site.facebook_username }}" />
   <meta property="og:description" content="{{ page.description }}" />
   <!-- /facebook meta -->
   <link rel="image_src" href="{% if page.headerimage %}{{ site.url }}{{ site.baseurl }}/img/posts-header/{{ page.headerimage }}{% else %}{{ site.author_img }}{% endif %}" />
