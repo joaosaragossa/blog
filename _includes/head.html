@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="image_src" href="{% if page.headerimage %}{{ site.baseurl }}/img/posts-header/{{ page.headerimage }}{% endif %}" />
   <script type="text/javascript" src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
   <!-- DISQUS -->
   <script type="text/javascript">
