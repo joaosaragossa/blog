@@ -3,7 +3,7 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{{ site.description }}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="keywords" content="{{ page.categories | join: ', ' }}">
   <meta name="author" content="João Saragossa">
   <!-- twitter-cards -->
@@ -12,8 +12,8 @@
   <meta name="twitter:title" content="João Saragossa | Web Designer e Produtor Cultural"/>
   <meta name="twitter:description" content="João Saragossa, produtor cultural e web designer em Ubatuba, São Paulo."/>
   <meta name="twitter:creator" content="@joaosaragossa"/>
-  <meta name="twitter:image:src" content="http://joaosaragossa.github.io/joao.jpg"/>
-  <meta name="twitter:domain" content="http://joaosaragossa.github.io/qualquer-coisa/"/>
+  <meta name="twitter:image:src" content="{% if page.headerimage %}{{ site.baseurl }}/img/posts-header/{{ page.headerimage }}{% else %}{{ site.author_img }}{% endif %}"/>
+  <meta name="twitter:domain" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"/>
   <!-- /twitter-cards -->
   <!-- facebook meta -->
   <meta property="og:image" content="{% if page.headerimage %}{{ site.baseurl }}/img/posts-header/{{ page.headerimage }}{% endif %}" />

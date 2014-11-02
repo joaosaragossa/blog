@@ -13,3 +13,4 @@ permalink: /:title
 # Build settings
 markdown: kramdown
 header_description: Por que não?
+author_img: "http://joaosaragossa.github.io/joao.jpg"
