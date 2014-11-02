@@ -1,0 +1,37 @@
+<script type="text/javascript">
+
+  if (document.getElementById('page-header')) {
+        
+      var header = document.getElementById('page-header');
+    }
+    else if(document.getElementById('post-header')) {
+
+      var header = document.getElementById('post-header');
+    }
+
+    // Header height resize
+
+    if (header) {
+      setInterval(function()
+      {
+        header.style.height = window.innerHeight + "px";
+      },0);
+    }
+
+    // Post header height resize
+    
+    if (header){
+      setInterval(function()
+      {
+        header.style.height = window.innerHeight + "px";
+      },0);
+    }
+
+    window.onscroll = function() {
+    var speed = 8.0;
+    header.style.backgroundPosition = (-window.pageXOffset / speed) + "px " + (-window.pageYOffset / speed) + "px";
+    }
+
+    
+  
+</script>

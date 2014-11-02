@@ -3,7 +3,7 @@ layout: post
 title:  "Urusey Yatsura!"
 date:   2014-10-16 18:11:02
 author: João Paulo Saragossa
-headerimage: "/img/urusei-yatsura-bg.jpg"
+headerimage: "02.jpg"
 categories:
 - anime
 - review

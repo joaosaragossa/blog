@@ -76,6 +76,8 @@ img
   text-align: center
   width: 100%
 
+  transition: background-position 1s ease-out
+
   .header-content
     display: table-cell
     vertical-align: middle
@@ -158,6 +160,7 @@ img
   background-size: cover
   display: table
   float: left
+  max-width: 430px
   position: relative
   width: $width/3
 
@@ -193,14 +196,16 @@ img
 
 #post-header
   background-size: cover
-  background-position: center
   display: table
   width: 100%
+
+  transition: background-position 1s ease-out
 
 .post-h1
   color: #fff
   display: table-cell
   font-size: 4em
+  padding: 0 1em
   text-align: center
   text-shadow: $text-shadow
   vertical-align: middle

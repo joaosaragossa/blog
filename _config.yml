@@ -1,8 +1,8 @@
 # Site settings
-title: Qualquer Coisa
+title: Blog do João
 author: João Saragossa
 email: joaosaragossa.dev@gmail.com
-description: Um blog sobre qualquer coisa. Mesmo
+description: Um blog sobre tudo que me dá na telha.
 baseurl: "/qualquer-coisa"
 url: "http://joaosaragossa.github.io"
 facebook_username: joaopaulo.saragossa
@@ -12,4 +12,4 @@ permalink: /:title
 
 # Build settings
 markdown: kramdown
-header_description: Mesmo
+header_description: Por que não?
