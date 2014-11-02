@@ -27,11 +27,17 @@
       },0);
     }
 
-    window.onscroll = function() {
-    var speed = 8.0;
-    header.style.backgroundPosition = (-window.pageXOffset / speed) + "px " + (-window.pageYOffset / speed) + "px";
+    if (window.innerWidth > 960) {
+
+      window.onscroll = function() {
+      var speed = 8.0;
+      header.style.backgroundPosition = (-window.pageXOffset / speed) + "px " + (-window.pageYOffset / speed) + "px";
+
+      console.log(window.innerWidth);
+      }
     }
 
-    
+
+
   
 </script>
