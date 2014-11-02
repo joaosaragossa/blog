@@ -15,6 +15,11 @@
   <meta name="twitter:image:src" content="http://joaosaragossa.github.io/joao.jpg"/>
   <meta name="twitter:domain" content="http://joaosaragossa.github.io/qualquer-coisa/"/>
   <!-- /twitter-cards -->
+  <!-- facebook meta -->
+  <meta property="og:image" content="{% if page.headerimage %}{{ site.baseurl }}/img/posts-header/{{ page.headerimage }}{% endif %}" />
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:description" content="{{ post.excerpt }}" />
+  <!-- /facebook meta -->
   <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
