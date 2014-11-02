@@ -7,7 +7,6 @@ showheader: true
   {% for post in site.posts %}
   <li class="post-list-item" style="background-image: url({% if post.headerimage %}{{ site.baseurl }}/img/posts-header/thumbs/{{ post.headerimage }}{% endif %})">
     <h1 class="list-h1"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
-    <!-- <p class="list-meta">{{ post.date | date: "%-d %B %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}</p> -->
   </li>
   {% endfor %}
 </ul>

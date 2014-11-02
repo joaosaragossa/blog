@@ -13,8 +13,8 @@ showheader: false
     {{ content }}
   </div>
   <footer class="post-footer">
-    <p>{% for category in site.categories %}
-      <a href="/{{ category | first | slugize }}/"><i class="fa fa-tag"></i>{{ category | first }}</a>
+    <p>{% for tag in page.tags %}
+      <a href="{{ site.baseurl }}/tag/{{ tag }}"><i class="fa fa-tag"></i>{{ tag }}</a>
     {% endfor %}</p>
     <div class="fb-like" data-href="http://joaosaragossa.github.io/blog/a-politica-e-seus-deuses-da-chuva/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
   </footer>
