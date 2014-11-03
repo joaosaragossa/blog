@@ -4,7 +4,7 @@ title:  "Aquele que Observa"
 date:   2014-11-03 12:43:02
 author: João Paulo Saragossa
 headerimage: "02.jpg"
-description: "Uma coisa que aprendi com o pintor americano [Jackson Pollock](http://pt.wikipedia.org/wiki/Jackson_Pollock) é que pintura é um jogo entre controle e caos"
+description: "Uma coisa que aprendi com o pintor americano Jackson Pollock é que pintura é um jogo entre controle e caos"
 tags:
 - arte
 ---
