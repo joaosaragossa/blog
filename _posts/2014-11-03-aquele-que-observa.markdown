@@ -4,7 +4,7 @@ title:  "Aquele que Observa"
 date:   2014-11-03 12:43:02
 author: João Paulo Saragossa
 headerimage: "02.jpg"
-description: "O homem saiu da caverna e viu a luz. Dai a luz diminuiu e ele viu o mundo. O homem viu que o mundo era diferente da caverna. O mundo estava estava cheio de coisas que o homem não sabia o que era. O homem viu seu reflexo na água e percebeu que não sabia o que ele era. O homem viu a morte, e a única coisa que descobriu é que ela o aguardava."
+description: "Uma coisa que aprendi com o pintor americano [Jackson Pollock](http://pt.wikipedia.org/wiki/Jackson_Pollock) é que pintura é um jogo entre controle e caos"
 tags:
 - arte
 ---
