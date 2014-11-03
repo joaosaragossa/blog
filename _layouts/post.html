@@ -16,7 +16,7 @@ showheader: false
     <p>{% for tag in page.tags %}
       <a href="{{ site.baseurl }}/tag/{{ tag }}"><i class="fa fa-tag"></i>{{ tag }}</a>
     {% endfor %}</p>
-    <div class="fb-like" data-href="{{ post.url | prepend: site.baseurl }}" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+    <div class="fb-like" data-href="{% for post in site.posts %}{{ post.url | prepend: site.baseurl }}{% endfor %}" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
   </footer>
 </article>
 <div class="post-comments">
