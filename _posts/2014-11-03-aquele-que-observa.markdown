@@ -7,6 +7,7 @@ headerimage: "02.jpg"
 description: "Uma coisa que aprendi com o pintor americano Jackson Pollock é que pintura é um jogo entre controle e caos"
 tags:
 - arte
+- "2014"
 ---
 <figure>
   <img src="{{ site.url }}{{ site.baseurl }}/img/posts-header/02.jpg">
