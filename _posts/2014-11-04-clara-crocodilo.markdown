@@ -9,6 +9,8 @@ tags:
 - arte
 - "2014"
 ---
+<img src="{{ site.url }}{{ site.baseurl }}/img/posts-images/arrigo.jpg" alt="Arrigo Barnabé">
+
 Como uma flor que nasce no asfalto, feia, condenada, efêmera e deformada, Clara Crocodilo é como uma falha na matrix, que acontece sabe-se lá como, de tempos em tempos. 
 Uma opera-rock dodecafônica que utiliza formas rítmicas pouco praticadas e uma narrativa urbana fantástica, análoga as estórias em quadrinhos. Essa farofa seria popular hoje em dia? Pois no começo dos anos 80 foi uma explosão que deu luz ao movimento que ficou conhecido como Vanguarda Paulista. 
 
