@@ -2,38 +2,49 @@
 
   if (document.getElementById('page-header')) {
       
-    var header = document.getElementById('page-header');
-  }
-  else if(document.getElementById('post-header')) {
-
-    var header = document.getElementById('post-header');
-  }
-  else if(document.getElementById('tags-header')) {
-
-    var header = document.getElementById('tags-header');
+    var pageHeader = document.getElementById('page-header');
   }
 
-// Header height resize
+  if(document.getElementById('post-header')) {
 
-  if (header) {
+    var postHeader = document.getElementById('post-header');
+  }
+
+  if(document.getElementById('tags-header')) {
+
+    var tagHeader = document.getElementById('tags-header');
+  }
+
+// Page header height resize
+
+  if (pageHeader) {
     setInterval(function()
     {
-      header.style.height = window.innerHeight + "px";
+      pageHeader.style.height = window.innerHeight + "px";
     },0);
   }
 
 // Post header height resize
 
-  if (header){
+  if (postHeader){
     setInterval(function()
     {
-      header.style.height = window.innerHeight + "px";
+      postHeader.style.height = window.innerHeight + "px";
+    },0);
+  }
+
+// Tag header height resize
+
+  if (tagHeader){
+    setInterval(function()
+    {
+      tagHeader.style.height = window.innerHeight + "px";
     },0);
   }
 
 // Post resize li
 
-  if (document.getElementById('post-list').getElementsByTagName('li')) {
+  if (document.getElementById('post-list')) {
 
     var posts = document.getElementById('post-list').getElementsByTagName('li');
     
@@ -51,9 +62,22 @@
   if (window.innerWidth > 960) {
 
     window.onscroll = function() {
-    var speed = 8.0;
-    header.style.backgroundPosition = (-window.pageXOffset / speed) + "px " + (-window.pageYOffset / speed) + "px";
+      var speed = 8.0;
+      if (pageHeader) {
 
-    console.log(window.innerWidth);
+        pageHeader.style.backgroundPosition = (-window.pageXOffset / speed) + "px " + (-window.pageYOffset / speed) + "px";
+      }
+      if (postHeader) {
+
+        postHeader.style.backgroundPosition = (-window.pageXOffset / speed) + "px " + (-window.pageYOffset / speed) + "px";
+      }
+      if (tagHeader) {
+
+        tagHeader.style.backgroundPosition = (-window.pageXOffset / speed) + "px " + (-window.pageYOffset / speed) + "px";
+      }
     }
   }
+
+// Target="_blanc" in all a elements in posts
+  
+  if (document.getElementsByClassName('')) {};
