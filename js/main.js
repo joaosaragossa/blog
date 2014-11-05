@@ -77,7 +77,3 @@
       }
     }
   }
-
-// Target="_blanc" in all a elements in posts
-  
-  if (document.getElementsByClassName('')) {};

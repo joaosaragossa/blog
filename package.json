@@ -1,0 +1,23 @@
+{
+  "name": "blog-do-joao",
+  "version": "1.0.0",
+  "description": "Blog do João - Por  que não?",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joaosaragossa/blog.git"
+  },
+  "author": "João Saragossa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaosaragossa/blog/issues"
+  },
+  "homepage": "https://github.com/joaosaragossa/blog",
+  "devDependencies": {
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-uglify": "^0.6.0"
+  }
+}
