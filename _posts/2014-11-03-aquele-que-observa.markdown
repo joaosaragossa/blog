@@ -11,7 +11,7 @@ tags:
 ---
 <figure>
   <img src="{{ site.url }}{{ site.baseurl }}/img/posts-header/02.jpg">
-  <figcaption>"Aquele que Observa" - Óleo sobre Tela</figcaption>
+  <figcaption>Aquele que Observa - Quem?</figcaption>
 </figure>
 
 
