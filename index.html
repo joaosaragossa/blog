@@ -2,7 +2,6 @@
 layout: default
 showheader: true
 ---
-
 <ul id="post-list">
   {% for post in site.posts %}
   <li class="post-list-item" style="background-image: url({% if post.headerimage %}{{ site.baseurl }}/img/posts-header/thumbs/{{ post.headerimage }}{% endif %})">
@@ -10,4 +9,3 @@ showheader: true
   </li>
   {% endfor %}
 </ul>
-{% include post-li-resize.html %}
