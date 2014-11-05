@@ -4,7 +4,7 @@ title:  ".UbaHACK: Segundo dia da oficina de skate"
 date:   2014-11-05 17:47:02
 author: João Paulo Saragossa
 headerimage: "04.jpg"
-description: "Como uma flor que nasce no asfalto, feia, condenada, efêmera e deformada, Clara Crocodilo é como uma falha na matrix, que acontece sabe-se lá como, de tempos em tempos."
+description: "O segundo dia da oficina de skate do .UbaHACK rolou na cobertura do centro de convenções por causa da chuva."
 tags:
 - "UbaHACK"
 - "2014"
