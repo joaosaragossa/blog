@@ -4,7 +4,7 @@ title:  "A volta dos militares e a indignação seletiva"
 date:   2014-11-06 17:47:02
 author: João Paulo Saragossa
 headerimage: "05.jpg"
-description: "O segundo dia da oficina de skate do .UbaHACK rolou na cobertura do centro de convenções por causa da chuva."
+description: "O pedido saudosista pelo retorno dos militares que desemboca nos esgotos da cena política brasileira foi amplamente discutido – e combatido, não sem razão – pela mídia brasileira nos últimos dias."
 tags:
 - "politica"
 - "2014"
