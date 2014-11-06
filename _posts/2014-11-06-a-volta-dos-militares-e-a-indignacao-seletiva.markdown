@@ -29,7 +29,7 @@ O discurso é documentado no <a href="http://inter01.tse.jus.br/divulga-cand-201
 
 <img src="http://spotniks.com/wp-content/uploads/2014/11/proletaria.jpg" alt="Manifestação pela ditadura proletária">
 
-Duro? Não se engane: o PCO não foi o único partido a defender uma ditadura proletária usando o seu dinheiro nessas eleições. O PCB, que lançou o candidato Mauro Iasi à presidência, defende em seu <a href="http://mauroiasi.com.br/wp/programa-completo/" target="_blanc">programa oficial</a>programa oficial um Bloco Revolucionário do Proletariado:
+Duro? Não se engane: o PCO não foi o único partido a defender uma ditadura proletária usando o seu dinheiro nessas eleições. O PCB, que lançou o candidato Mauro Iasi à presidência, defende em seu <a href="http://mauroiasi.com.br/wp/programa-completo/" target="_blanc">programa oficial</a> um Bloco Revolucionário do Proletariado:
 
 “O PCB defende que somente a Revolução Socialista, entendida como um forte e poderoso processo de lutas populares que desemboque na construção de uma sociedade alternativa ao capitalismo e à ordem burguesa, será capaz de realmente resolver os problemas vividos pelos trabalhadores e setores populares.”
 
