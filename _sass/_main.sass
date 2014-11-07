@@ -203,15 +203,66 @@ hr
   position: relative
   width: $width/3
 
-  a
-    color: #fff
-    text-shadow: $text-shadow
+  &:hover .list-item-h1:after,
+  &:hover .list-item-date,
+  &:hover .list-item-tags
+    opacity: 1
 
-  .list-h1
+    transition: opacity 0.5s ease
+
+  .list-item-h1
     display: table-cell
     padding: 0 0.5em
+    position: relative
     text-align: center
     vertical-align: middle
+
+    a
+      color: #fff
+      position: relative
+      text-shadow: $text-shadow
+      z-index: 2
+
+    &:after
+      background: rgba(#000, 0.5)
+      bottom: 0
+      content: ""
+      height: 100%
+      left: 0
+      opacity: 0
+      position: absolute
+      width: 100%
+      z-index: 1
+      
+      transition: opacity 0.5s ease
+
+  .list-item-date
+    color: #fff
+    font-size: 1em
+    left: $spacing-unit
+    opacity: 0
+    position: absolute
+    top: $spacing-unit
+    z-index: 2
+
+    transition: opacity 0.5s ease
+
+  .list-item-tags
+    bottom: $spacing-unit
+    color: #fff
+    font-size: 1em
+    opacity: 0
+    position: absolute
+    right: $spacing-unit
+    z-index: 2
+
+    a
+      color: #fff
+
+    .fa-tag
+      padding: 0 0.2em 0 1em
+
+    transition: opacity 0.5s ease
 
   .list-meta
     +box-sizing
