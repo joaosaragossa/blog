@@ -5,7 +5,7 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="keywords" content="{{ page.categories | join: ', ' }}">
-  <meta name="author" content="João Saragossa">
+  <meta name="author" content="{{ page.author }}">
   <link rel="image_src" href="{% if page.headerimage %}{{ site.url }}{{ site.baseurl }}/img/posts-header/{{ page.headerimage }}{% else %}{{ site.author_img }}{% endif %}" />
   <!-- twitter-cards -->
   <meta name="twitter:card" content="summary_large_image"/>
