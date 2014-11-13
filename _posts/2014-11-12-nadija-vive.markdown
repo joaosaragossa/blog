@@ -2,7 +2,7 @@
 layout: post
 title:  "Nadija vive"
 date:   2014-11-12 18:02:02
-author: João Paulo Saragossa
+author: Lucas Dias/Nadija
 headerimage: "07.jpg"
 description: "Eu nunca escolhi a minha identidade de gênero. Eu hoje a assumo. Eu hoje a grito. Eu hoje digo: Nadija vive."
 tags:
