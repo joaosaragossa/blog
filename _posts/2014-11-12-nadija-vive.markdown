@@ -9,7 +9,7 @@ tags:
 - "opiniao"
 ---
 
-<img src="" alt="Nadija">
+<img src="{{ site.url }}{{ site.baseurl }}/img/posts-images/nadija.jpg" alt="Nadija">
 
 Às vezes me pego sozinha me perguntando: Eu existo para além de seus reconhecimentos e ignorâncias? Quando eu ponho a sapatilha, a saia, a blusa apertada, o batom, eu existo? E quando eu pinto as unhas, será que eu existo? Ou só existo quando sigo o instinto nu de me rebaixar às identidades que vocês me dão?
 
